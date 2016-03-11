@@ -2,7 +2,10 @@ Rails.application.routes.draw do
   
   root 'pages#home'
 
-  get '/about' => 'pages#about'
+  get '/footprint' => 'pages#footprint'
+  get '/impact' => 'pages#impact'
+  get '/progress' => 'pages#progress'
+  get '/accountabilty' => 'pages#accountability'
 
   
   

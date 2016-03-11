@@ -3,6 +3,15 @@ class PagesController < ApplicationController
     def Home
     end
     
-    def About
+    def Footprint
+    end
+    
+    def Impact
+    end
+    
+    def Progress
+    end
+    
+    def Accountability
     end
 end
