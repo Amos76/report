@@ -1,3 +1,7 @@
+<body class="impact">
+  <% yield %>
+</body> 
+
     </div>
         <div data-spy="affix" id="dot-nav">
     	<ul>
@@ -23,25 +27,28 @@
                    <div class="col-md-4 well-clear">
                     <h1>Syria Response Strategy Monitoring</br>
                         <small>2015 onwards</small></h1>
+                    <a class="btn btn-default" href="#satisfaction" role="button">Read More</a>
                        
                    </div>
                </div>
            </article>           
     	</section>
     	
+    
         <section id="satisfaction" class="impactPic">
            <article>
-               <div class="row">
-                   <div class="col-md-4 col-md-offset-7 well-clear">
+               <div class="row text-center">
+                   <div class="col-md-6 col-md-offset-6 well-clear">
                     <h1>Levels of Satisfaction</h1>
-                    <h3>Average, <span class="number">69%</span> satisfaction</h3>
                     </br>
+                    <%=image_tag("SatisfactionTable2.png", alt: "Satisfaction Summary table image", class: "img-responsive") %>
                     </br>
-                    </br>
-                    </br>
-                    <h4>North Syria  <span class="number">74% --- 69%</span>  Lebanon</h4>
+
+                    <%=image_tag("downArrow.png", alt: "Page Advance arrow image", class: "img-responsive arrow") %>
                    </div>
+                   
                </div>
+               
            </article>           
         </section>
         
@@ -151,4 +158,4 @@
         
     </div>
     
-    
+   

@@ -9,6 +9,9 @@ class PagesController < ApplicationController
     def Impact
     end
     
+    def Impact2
+    end
+    
     def Progress
     end
     

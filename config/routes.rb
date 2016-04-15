@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get '/footprint' => 'pages#footprint'
   get '/impact' => 'pages#impact'
+  get '/impact2' => 'pages#impact2'
   get '/progress' => 'pages#progress'
   get '/accountabilty' => 'pages#accountability'
 
